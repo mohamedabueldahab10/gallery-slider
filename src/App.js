@@ -25,6 +25,11 @@ const SliderDots = styled.div`
   justify-content: start;
   column-gap: 20px;
   align-items: center;
+  @media (max-width: 1040px) {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }   
 `;
 
 const App = () => {
